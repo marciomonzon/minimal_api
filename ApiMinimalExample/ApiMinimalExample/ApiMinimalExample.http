@@ -1,0 +1,15 @@
+﻿@ApiMinimalExample_HostAddress = https://localhost:7122
+
+POST {{ApiMinimalExample_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+
+###
+
+GET {{ApiMinimalExample_HostAddress}}/todoitems
+
+###
